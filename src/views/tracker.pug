@@ -1,0 +1,13 @@
+each tax, tkey in taxes
+  tr(id=tkey)
+    td
+      h2= tax
+    td
+      each plan in plans
+        .plan-position(id = plan.class + '-position')
+          .plan-name
+            h3= plan.name
+          .plan-position-text
+            each position, pkey in plan.positions
+              if tkey == pkey
+                p= plan.positions

@@ -14,7 +14,7 @@ gulp.task('build', ['renderHtml', 'moveImages', 'moveJavascript', 'compileSass']
 });
 
 gulp.task('renderHtml', function () {
-  gulp.src('./src/templates/*.pug')
+  gulp.src('./src/**/*.pug')
   .pipe(data(function (file) {
     return require('./src/data/data.json');
   }))

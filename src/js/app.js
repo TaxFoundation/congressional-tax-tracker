@@ -1,0 +1,81 @@
+var allCandidates = false;
+var allIssues = false;
+
+function showCandidates() {
+  if ($('.candidates-note')) {
+      $('.candidates-note').remove();
+    }
+  if ($('.candidate-list').hasClass('inactive')) {
+    $('.candidate-list').removeClass('inactive');
+    $('.candidate-toggle').removeClass('rotate');
+  } else {
+    $('.candidate-list').addClass('inactive');
+    $('.candidate-toggle').addClass('rotate');
+  }
+}
+
+function showIssues() {
+if ($('.issues-note')) {
+    $('.issues-note').remove();
+  }
+  if ($('.issues-list').hasClass('inactive')) {
+    $('.issues-list').removeClass('inactive');
+    $('.issue-toggle').removeClass('rotate');
+  } else {
+    $('.issues-list').addClass('inactive');
+    $('.issue-toggle').addClass('rotate');
+  }
+}
+
+function toggleCandidate(name) {
+  var candidate = $('#' + name);
+  var positions = $('.' + name + '-position');
+  if (candidate.hasClass('active')) {
+    candidate.removeClass('active');
+    positions.addClass('inactive');
+    if (allCandidates) {
+      allCandidates = false;
+    }
+  } else {
+    candidate.addClass('active');
+    positions.removeClass('inactive');
+  }
+}
+
+function toggleIssues(name) {
+  var issue = $('#' + name);
+  var issueRow = $('.' + name);
+  if (issue.hasClass('active')) {
+    issue.removeClass('active');
+    issueRow.addClass('row-inactive');
+  } else {
+    issue.addClass('active');
+    issueRow.removeClass('row-inactive');
+  }
+}
+
+function selectAllCandidates() {
+  var candidates = $('.candidate-list').children();
+  if (!allCandidates) {
+    candidates.addClass('active');
+    $('.candidate-position').removeClass('inactive');
+    allCandidates = true;
+  } else {
+    candidates.removeClass('active');
+    $('.candidate-position').addClass('inactive');
+    allCandidates = false;
+  }
+}
+
+function selectAllIssues() {
+  var issues = $('.issue-item');
+  if (!allIssues) {
+    issues.addClass('active');
+    $('.issue-row').removeClass('row-inactive');
+    allIssues = true;
+  } else {
+    issues.removeClass('active');
+    $('.issue-row').addClass('row-inactive');
+    allIssues = false;
+  }
+}

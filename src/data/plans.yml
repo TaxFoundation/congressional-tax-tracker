@@ -1,0 +1,38 @@
+Congressional Tax Plans
+---
+taxes:
+  - individual: Individual Income Tax
+    - indIncomeRates: Rates on Ordinary Income
+    - itemizedDeductions: Itemized Deductions
+    - credits: Credits
+    - amt: Alternative Minimum Tax
+    - capGainsAndDividends: Rates on Capital Gains and Dividends Income
+  - corporate: Corporate Income Tax
+    - corpIncomeRates: Top Rates on Corporate Income
+    - capExpenses: Capital Expenses
+    - intIncome: International Income
+    - passthrough: Pass-through Business
+  - other: Other Tax Topics
+    - payroll: Payroll Taxes
+    - estate: Estate Tax
+    - other: Other
+plans:
+- name: Jim Renacci
+  class: jim-renacci
+  positions:
+    indIncomeRates: >
+      Establishes three tax brackets with rates of 10%, 25%, and 35%. The top
+      rate applies to taxable income over $750,000 ($1,500,000 for joint filers).
+      Increases the standard deduction to $15,000 ($30,000 for joint filers).
+      Increases the personal exemption to $5,000.
+    itemizedDeductions: >
+      Eliminates all itemized deductions except charitable contributions and
+      mortgage interest up to $500,000 of debt.
+    credits: >
+      Eliminates most personal credits. Retains the Child Tax Credit. Expands
+      the Earned Income Tax Credit by increasing phase-in rates at 100% for
+      childless workers and 40% for others.
+    amt: >
+      Eliminates the alternative minimum tax.
+    capGainsAndDividends: >
+      Taxes capital gains and dividends as ordinary income.

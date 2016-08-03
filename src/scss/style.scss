@@ -1,0 +1,285 @@
+$background-color: #fff;
+$tf-blue: #0094ff;
+$text-color: rgba(0, 0, 0, .8);
+$table-border: #ddd;
+
+.tax-plans-tool {
+  color: $text-color;
+  margin: 0;
+
+  strong {
+    font-weight: 700;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    list-style-position: inside !important;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0 0 10px;
+  }
+
+  .category-title {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 10px 0 5px;
+
+    .toggle {
+      background-color: $tf-blue;
+      border-radius: 50%;
+      color: $background-color;
+      cursor: pointer;
+      display: inline-block;
+      height: 28px;
+      margin: 0 0 0 10px;
+      text-align: center;
+      transition: transform .2s;
+      vertical-align: baseline;
+      width: 28px;
+    }
+  }
+
+  table {
+    background-color: $background-color !important;
+    border: solid $table-border 1px !important;
+    border-collapse: separate !important;
+    border-left: 0 !important;
+    border-radius: 4px !important;
+    border-spacing: 0 !important;
+    margin: 25px auto;
+    width: 100%;
+  }
+
+  td,
+  th {
+    background-color: $background-color !important;
+    border-left: 1px solid $table-border !important;
+    color: $text-color !important;
+    vertical-align: top;
+
+    h2,
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    &:hover {
+      background-color: $background-color !important;
+    }
+  }
+
+  th {
+    border-top: 0;
+    font-weight: 700;
+    padding: 10px 15px 0;
+  }
+
+  td {
+    border-top: 1px solid $table-border !important;
+    padding: 0 15px;
+
+    p {
+      margin: 0 0 12px;
+    }
+  }
+
+  th:first-child {
+    border-radius: 4px 0 0;
+  }
+
+  th:last-child {
+    border-radius: 0 4px 0 0;
+  }
+
+  th:only-child {
+    border-radius: 4px 4px 0 0;
+  }
+
+  tr:last-child td:first-child {
+    border-radius: 0 0 0 4px;
+  }
+
+  tr:last-child td:last-child {
+    border-radius: 0 0 4px;
+  }
+}
+
+.table-notes {
+  background-color: $table-border;
+  padding: 10px !important;
+}
+
+.plan-list {
+  border: solid $table-border 1px;
+  border-radius: 4px;
+  list-style: none;
+  max-height: 1000px;
+  opacity: 1;
+  padding: 5px;
+  transition: max-height .2s, opacity .2s, padding .2s;
+
+  li {
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 5px;
+    padding: 5px 5px 3px;
+
+    &::before {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      content: '';
+      display: block;
+      height: 40px;
+      margin: 0 auto;
+      width: 40px;
+    }
+
+    &.active {
+      background-color: $tf-blue;
+      color: $background-color;
+    }
+  }
+}
+
+.issues-list {
+  border: solid $table-border 1px;
+  border-radius: 4px;
+  list-style: none;
+  max-height: 1000px;
+  opacity: 1;
+  padding: 5px;
+  transition: max-height .2s, opacity .2s, padding .2s;
+
+  .issue-item {
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 5px;
+    padding: 3px;
+
+    &.active {
+      background-color: $tf-blue;
+      color: $background-color;
+    }
+  }
+
+  .issue-select-all {
+    border: solid 1px $table-border;
+    border-radius: 4px;
+    font-size: 16px !important;
+    padding: 0 10px;
+  }
+
+  li {
+    display: block;
+
+    .issue-category::before {
+      border-bottom: solid 1px $table-border;
+      display: block;
+      font-weight: 700;
+      margin: 0 15px 0 0;
+    }
+
+    .individual-taxes::before {
+      content: 'Individual Taxes: ';
+
+    }
+
+    .corporate-taxes::before {
+      content: 'Corporate Taxes: ';
+    }
+
+    .other-taxes::before {
+      content: 'Other Taxes: ';
+    }
+  }
+}
+
+.plan-name {
+  margin: 0 0 15px;
+}
+
+.plan-position {
+  border-top: solid 1px $table-border;
+  margin: -1px 0 1px;
+  max-height: 500px;
+  opacity: 1;
+  padding: 7px 0 0;
+  transition: max-height .2s, opacity .2s, padding .1s;
+
+  @media (min-width: 500px) {
+    h3::before {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      content: '';
+      display: inline-block;
+      height: 40px;
+      margin: 0 10px -12px 0;
+      width: 40px;
+    }
+  }
+
+  @media (max-width: 499px) {
+    h3 {
+      text-align: center;
+    }
+
+    h3::before {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      content: '';
+      display: block;
+      height: 40px;
+      margin: 0 auto;
+      width: 40px;
+    }
+  }
+}
+
+.inactive {
+  border: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.row-inactive {
+  display: none;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+#select-all-plans {
+  border: solid 1px $table-border;
+  border-radius: 4px;
+}
+
+.expansion-note {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0 0 0 10px;
+}
+
+.dropped {
+  color: #999999;
+
+  &::before {
+    filter: grayscale(100%);
+  }
+}
