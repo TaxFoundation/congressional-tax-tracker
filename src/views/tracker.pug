@@ -1,13 +1,13 @@
-each tax, tkey in taxes
-  tr(id=tkey)
+each tax in taxes
+  tr(id=tax.class)
     td
-      h2= tax
+      h2= tax.name
     td
       each plan in plans
         .plan-position(id = plan.class + '-position')
           .plan-name
             h3= plan.name
           .plan-position-text
-            each position, pkey in plan.positions
-              if tkey == pkey
-                p= plan.positions
+            each position in plan.positions
+              if tax.class == position.class
+                p= position.text

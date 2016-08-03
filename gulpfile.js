@@ -1,9 +1,10 @@
 'use strict';
 
 var gulp = require('gulp'),
+    fs = require('fs'),
     pug = require('gulp-pug'),
     data = require('gulp-data'),
-    yaml = require('gulp-yaml'),
+    yaml = require('js-yaml'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     webserver = require('gulp-webserver');
@@ -17,9 +18,8 @@ gulp.task('build', ['renderHtml', 'moveImages', 'moveJavascript', 'compileSass']
 gulp.task('renderHtml', function () {
   gulp.src('./src/**/*.pug')
   .pipe(data(function (file) {
-    return require('./src/data/plans.yml');
+    return yaml.safeLoad(fs.readFileSync('./src/data/plans.yml', 'utf-8'));
   }))
-  .pipe(yaml({ schema: 'DEFAULT_SAFE_SCHEMA' }))
   .pipe(pug({ pretty: true }))
   .pipe(gulp.dest('./dist/'));
 });
