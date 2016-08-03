@@ -3,6 +3,7 @@
 var gulp = require('gulp'),
     pug = require('gulp-pug'),
     data = require('gulp-data'),
+    yaml = require('gulp-yaml'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     webserver = require('gulp-webserver');
@@ -16,8 +17,9 @@ gulp.task('build', ['renderHtml', 'moveImages', 'moveJavascript', 'compileSass']
 gulp.task('renderHtml', function () {
   gulp.src('./src/**/*.pug')
   .pipe(data(function (file) {
-    return require('./src/data/data.json');
+    return require('./src/data/plans.yml');
   }))
+  .pipe(yaml({ schema: 'DEFAULT_SAFE_SCHEMA' }))
   .pipe(pug({ pretty: true }))
   .pipe(gulp.dest('./dist/'));
 });

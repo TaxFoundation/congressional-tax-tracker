@@ -1,21 +1,18 @@
 Congressional Tax Plans
 ---
 taxes:
-  - individual: Individual Income Tax
-    - indIncomeRates: Rates on Ordinary Income
-    - itemizedDeductions: Itemized Deductions
-    - credits: Credits
-    - amt: Alternative Minimum Tax
-    - capGainsAndDividends: Rates on Capital Gains and Dividends Income
-  - corporate: Corporate Income Tax
-    - corpIncomeRates: Top Rates on Corporate Income
-    - capExpenses: Capital Expenses
-    - intIncome: International Income
-    - passthrough: Pass-through Business
-  - other: Other Tax Topics
-    - payroll: Payroll Taxes
-    - estate: Estate Tax
-    - other: Other
+  - indIncomeRates: Rates on Ordinary Income
+  - itemizedDeductions: Itemized Deductions
+  - credits: Credits
+  - amt: Alternative Minimum Tax
+  - capGainsAndDividends: Rates on Capital Gains and Dividends Income
+  - corpIncomeRates: Top Rates on Corporate Income
+  - capExpenses: Capital Expenses
+  - intIncome: International Income
+  - passthrough: Pass-through Business
+  - payroll: Payroll Taxes
+  - estate: Estate Tax
+  - other: Other
 plans:
 - name: Jim Renacci
   class: jim-renacci
