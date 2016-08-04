@@ -1,0 +1,26 @@
+h2 Plans
+.plan-tracker__plans
+  each plan in plans
+    .plan-tracker__plan-name-toggle(class='.plan-tracker__plan-name-toggle' + plan.class)
+      p= plan.name
+
+h2 Issues
+.plan-tracker__issues
+  .plan-tracker__individual-issues
+    h3.plan-tracker__issue-section-heading Individual Taxes:
+    ul
+      each tax in taxes
+        if tax.type == 'individual'
+          li.plan-tracker__issue-toggle(id=tax.class)= tax.name
+  .plan-tracker__corporate-issues
+    h3.plan-tracker__issue-section-heading Corporate Taxes:
+    ul
+      each tax in taxes
+        if tax.type == 'corporate'
+          li.plan-tracker__issue-toggle(id=tax.class)= tax.name
+  .plan-tracker__other-issues
+    h3.plan-tracker__issue-section-heading Other Taxes:
+    ul
+      each tax in taxes
+        if tax.type == 'other'
+          li.plan-tracker__issue-toggle(id=tax.class)= tax.name
