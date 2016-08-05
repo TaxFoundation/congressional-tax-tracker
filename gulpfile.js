@@ -11,11 +11,11 @@ var gulp = require('gulp'),
 
 gulp.task('default', ['build', 'webserver', 'watch']);
 
-gulp.task('build', ['renderHtml', 'moveImages', 'moveJavascript', 'compileSass'], function (cb) {
+gulp.task('build', ['renderHtml', 'moveImages', 'moveJavascript'], function (cb) {
   cb();
 });
 
-gulp.task('renderHtml', function () {
+gulp.task('renderHtml', ['compileSass'], function () {
   gulp.src('./src/**/*.pug')
   .pipe(data(function (file) {
     return yaml.safeLoad(fs.readFileSync('./src/data/plans.yml', 'utf-8'));
@@ -52,9 +52,8 @@ gulp.task('webserver', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('./src/scss/**/*.scss', ['compileSass']);
   gulp.watch('./src/images/**/*', ['moveImages']);
   gulp.watch('./src/js/**/*', ['moveJavascript']);
   gulp.watch('./src/data/**/*', ['renderHtml']);
-  gulp.watch('./src/templates/**/*', ['renderHtml']);
+  gulp.watch(['./dist/css/style.css', './src/**/*.pug'], ['renderHtml']);
 });

@@ -1,23 +1,25 @@
-var allCandidates = false;
+var allPlans = false;
 var allIssues = false;
 
-function showCandidates() {
-  if ($('.candidates-note')) {
-      $('.candidates-note').remove();
-    }
-  if ($('.candidate-list').hasClass('inactive')) {
-    $('.candidate-list').removeClass('inactive');
-    $('.candidate-toggle').removeClass('rotate');
+function showPlans() {
+  if ($('.plans-note')) {
+    $('.plans-note').remove();
+  }
+
+  if ($('.plan-list').hasClass('inactive')) {
+    $('.plan-list').removeClass('inactive');
+    $('.plan-toggle').removeClass('rotate');
   } else {
-    $('.candidate-list').addClass('inactive');
-    $('.candidate-toggle').addClass('rotate');
+    $('.plan-list').addClass('inactive');
+    $('.plan-toggle').addClass('rotate');
   }
 }
 
 function showIssues() {
-if ($('.issues-note')) {
+  if ($('.issues-note')) {
     $('.issues-note').remove();
   }
+
   if ($('.issues-list').hasClass('inactive')) {
     $('.issues-list').removeClass('inactive');
     $('.issue-toggle').removeClass('rotate');
@@ -27,54 +29,49 @@ if ($('.issues-note')) {
   }
 }
 
-function toggleCandidate(name) {
-  var candidate = $('#' + name);
-  var positions = $('.' + name + '-position');
-  if (candidate.hasClass('active')) {
-    candidate.removeClass('active');
-    positions.addClass('inactive');
-    if (allCandidates) {
-      allCandidates = false;
-    }
+function togglePlan(name) {
+  var $plan = $('#' + name);
+  var $positions = $('.' + name + '-position');
+  if ($plan.hasClass('plan-tracker__plan-toggle--inactive')) {
+    $plan.removeClass('plan-tracker__plan-toggle--inactive');
+    $positions.removeClass('inactive');
   } else {
-    candidate.addClass('active');
-    positions.removeClass('inactive');
+    $plan.addClass('plan-tracker__plan-toggle--inactive');
+    $positions.addClass('inactive');
   }
 }
 
-function toggleIssues(name) {
-  var issue = $('#' + name);
-  var issueRow = $('.' + name);
-  if (issue.hasClass('active')) {
-    issue.removeClass('active');
-    issueRow.addClass('row-inactive');
+function toggleIssue(name) {
+  var $issue = $('#' + name);
+  var $issueRow = $('.' + name);
+  if ($issue.hasClass('row-inactive')) {
+    $issue.removeClass('row-inactive');
   } else {
-    issue.addClass('active');
-    issueRow.removeClass('row-inactive');
+    $issue.addClass('row-inactive');
   }
 }
 
-function selectAllCandidates() {
-  var candidates = $('.candidate-list').children();
-  if (!allCandidates) {
-    candidates.addClass('active');
-    $('.candidate-position').removeClass('inactive');
-    allCandidates = true;
+function selectAllPlans() {
+  var $plans = $('.plan-list').children();
+  if (!allPlans) {
+    $plans.addClass('active');
+    $('.plan-position').removeClass('inactive');
+    allPlans = true;
   } else {
-    candidates.removeClass('active');
-    $('.candidate-position').addClass('inactive');
-    allCandidates = false;
+    $plans.removeClass('active');
+    $('.plan-position').addClass('inactive');
+    allPlans = false;
   }
 }
 
 function selectAllIssues() {
-  var issues = $('.issue-item');
+  var $issues = $('.issue-item');
   if (!allIssues) {
-    issues.addClass('active');
+    $issues.addClass('active');
     $('.issue-row').removeClass('row-inactive');
     allIssues = true;
   } else {
-    issues.removeClass('active');
+    $issues.removeClass('active');
     $('.issue-row').addClass('row-inactive');
     allIssues = false;
   }

@@ -4,7 +4,7 @@ each tax in taxes
       h2= tax.name
     td.plan-tracker__cell
       each plan in plans
-        .plan-tracker__position(id = plan.class + '-position')
+        .plan-tracker__position(class = plan.class + '-position')
           .plan-tracker__name
             h3= plan.name
           .plan-tracker__position-text

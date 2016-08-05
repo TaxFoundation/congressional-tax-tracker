@@ -92,8 +92,27 @@ $table-border: #ddd;
     margin: 10px 0 5px;
   }
 
-  &__plan-name-toggle {
+  &__issues-list,
+  &__plans {
+    list-style: none;
+    margin: 0;
+  }
 
+  &__issue-toggle,
+  &__plan-toggle {
+    background-color: $tf-blue;
+    border-radius: 4px;
+    color: $background-color;
+    display: inline-block;
+    padding: 6px;
+  }
+
+  &__plan-toggle--inactive {
+    background-color: transparent;
+  }
+
+  &__issue-section-heading {
+    text-transform: capitalize;
   }
 }
 
@@ -283,25 +302,8 @@ $table-border: #ddd;
   display: none;
 }
 
-.rotate {
-  transform: rotate(180deg);
-}
-
-#select-all-plans {
-  border: solid 1px $table-border;
-  border-radius: 4px;
-}
-
 .expansion-note {
   font-size: 12px;
   font-style: italic;
   margin: 0 0 0 10px;
-}
-
-.dropped {
-  color: #999999;
-
-  &::before {
-    filter: grayscale(100%);
-  }
 }
