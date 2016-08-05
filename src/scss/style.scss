@@ -92,10 +92,17 @@ $table-border: #ddd;
     margin: 10px 0 5px;
   }
 
-  &__issues-list,
+  &__issues,
   &__plans {
+    border: 1px solid $table-border;
+    border-radius: 4px;
+  }
+
+  &__plans,
+  &__issues-list {
     list-style: none;
     margin: 0;
+    padding: 18px;
   }
 
   &__issue-toggle,
@@ -116,179 +123,10 @@ $table-border: #ddd;
   }
 }
 
-.tax-plans-tool {
-
-
-  .category-title {
-
-
-    .toggle {
-
-    }
-  }
-
-  table {
-
-  }
-
-  td,
-  th {
-
-
-
-
-    &:hover {
-      background-color: $background-color !important;
-    }
-  }
-
-  th {
-
-  }
-
-  td {
-
-  }
-
-
-}
-
-.table-notes {
-  background-color: $table-border;
-  padding: 10px !important;
-}
-
-.plan-list {
-  border: solid $table-border 1px;
-  border-radius: 4px;
-  list-style: none;
-  max-height: 1000px;
-  opacity: 1;
-  padding: 5px;
-  transition: max-height .2s, opacity .2s, padding .2s;
-
-  li {
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 700;
-    margin: 5px;
-    padding: 5px 5px 3px;
-
-    &::before {
-      background-repeat: no-repeat;
-      background-size: 100%;
-      content: '';
-      display: block;
-      height: 40px;
-      margin: 0 auto;
-      width: 40px;
-    }
-
-    &.active {
-      background-color: $tf-blue;
-      color: $background-color;
-    }
-  }
-}
-
-.issues-list {
-  border: solid $table-border 1px;
-  border-radius: 4px;
-  list-style: none;
-  max-height: 1000px;
-  opacity: 1;
-  padding: 5px;
-  transition: max-height .2s, opacity .2s, padding .2s;
-
-  .issue-item {
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 700;
-    margin: 5px;
-    padding: 3px;
-
-    &.active {
-      background-color: $tf-blue;
-      color: $background-color;
-    }
-  }
-
-  .issue-select-all {
-    border: solid 1px $table-border;
-    border-radius: 4px;
-    font-size: 16px !important;
-    padding: 0 10px;
-  }
-
-  li {
-    display: block;
-
-    .issue-category::before {
-      border-bottom: solid 1px $table-border;
-      display: block;
-      font-weight: 700;
-      margin: 0 15px 0 0;
-    }
-
-    .individual-taxes::before {
-      content: 'Individual Taxes: ';
-
-    }
-
-    .corporate-taxes::before {
-      content: 'Corporate Taxes: ';
-    }
-
-    .other-taxes::before {
-      content: 'Other Taxes: ';
-    }
-  }
-}
-
 .plan-name {
   margin: 0 0 15px;
 }
 
-.plan-position {
-  border-top: solid 1px $table-border;
-  margin: -1px 0 1px;
-  max-height: 500px;
-  opacity: 1;
-  padding: 7px 0 0;
-  transition: max-height .2s, opacity .2s, padding .1s;
-
-  @media (min-width: 500px) {
-    h3::before {
-      background-repeat: no-repeat;
-      background-size: 100%;
-      content: '';
-      display: inline-block;
-      height: 40px;
-      margin: 0 10px -12px 0;
-      width: 40px;
-    }
-  }
-
-  @media (max-width: 499px) {
-    h3 {
-      text-align: center;
-    }
-
-    h3::before {
-      background-repeat: no-repeat;
-      background-size: 100%;
-      content: '';
-      display: block;
-      height: 40px;
-      margin: 0 auto;
-      width: 40px;
-    }
-  }
-}
 
 .inactive {
   border: 0;
@@ -300,10 +138,4 @@ $table-border: #ddd;
 
 .row-inactive {
   display: none;
-}
-
-.expansion-note {
-  font-size: 12px;
-  font-style: italic;
-  margin: 0 0 0 10px;
 }
