@@ -2,7 +2,7 @@ h2 Plans
 ul.plan-tracker__plans
   each plan in plans
     li.plan-tracker__plan-toggle(id=plan.class, onclick='togglePlan("' + plan.class + '")')= plan.name
-  li.plan-tracker__plan-toggle(onclick='selectAllPlans()') Select All
+  li.plan-tracker__plan-toggle.plan-tracker__plan-select-all(onclick='selectAllPlans()') Deselect All
 
 h2 Issues
 .plan-tracker__issues
@@ -12,5 +12,5 @@ h2 Issues
       ul.plan-tracker__issues-list
         each tax in taxes
           if tax.type == type
-            li.plan-tracker__issue-toggle(onclick='toggleIssue("' + tax.class + '")')= tax.name
-  .plan-tracker__issue-toggle(onclick='selectAllIssues()') Select All
+            li.plan-tracker__issue-toggle(id=tax.class, onclick='toggleIssue("' + tax.class + '")')= tax.name
+  .plan-tracker__issue-toggle.plan-tracker__issue-select-all(onclick='selectAllIssues()') Deselect All
