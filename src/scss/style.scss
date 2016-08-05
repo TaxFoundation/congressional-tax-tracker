@@ -3,7 +3,7 @@ $tf-blue: #0094ff;
 $text-color: rgba(0, 0, 0, .8);
 $table-border: #ddd;
 
-.tax-plans-tool {
+.plan-tracker {
   color: $text-color;
   margin: 0;
 
@@ -26,27 +26,7 @@ $table-border: #ddd;
     margin: 0 0 10px;
   }
 
-  .category-title {
-    font-size: 22px;
-    line-height: 26px;
-    margin: 10px 0 5px;
-
-    .toggle {
-      background-color: $tf-blue;
-      border-radius: 50%;
-      color: $background-color;
-      cursor: pointer;
-      display: inline-block;
-      height: 28px;
-      margin: 0 0 0 10px;
-      text-align: center;
-      transition: transform .2s;
-      vertical-align: baseline;
-      width: 28px;
-    }
-  }
-
-  table {
+  &__table {
     background-color: $background-color !important;
     border: solid $table-border 1px !important;
     border-collapse: separate !important;
@@ -55,10 +35,44 @@ $table-border: #ddd;
     border-spacing: 0 !important;
     margin: 25px auto;
     width: 100%;
+
+    th {
+      border-top: 0;
+      font-weight: 700;
+      padding: 10px 15px 0;
+    }
+
+    td {
+      border-top: 1px solid $table-border !important;
+      padding: 0 15px;
+
+      p {
+        margin: 0 0 12px;
+      }
+    }
+
+    th:first-child {
+      border-radius: 4px 0 0;
+    }
+
+    th:last-child {
+      border-radius: 0 4px 0 0;
+    }
+
+    th:only-child {
+      border-radius: 4px 4px 0 0;
+    }
+
+    tr:last-child td:first-child {
+      border-radius: 0 0 0 4px;
+    }
+
+    tr:last-child td:last-child {
+      border-radius: 0 0 4px;
+    }
   }
 
-  td,
-  th {
+  &__cell {
     background-color: $background-color !important;
     border-left: 1px solid $table-border !important;
     color: $text-color !important;
@@ -70,6 +84,39 @@ $table-border: #ddd;
       font-weight: 700;
       line-height: 1.5;
     }
+  }
+
+  &__issue-section-heading {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 10px 0 5px;
+  }
+
+  &__plan-name-toggle {
+
+  }
+}
+
+.tax-plans-tool {
+
+
+  .category-title {
+
+
+    .toggle {
+
+    }
+  }
+
+  table {
+
+  }
+
+  td,
+  th {
+
+
+
 
     &:hover {
       background-color: $background-color !important;
@@ -77,39 +124,14 @@ $table-border: #ddd;
   }
 
   th {
-    border-top: 0;
-    font-weight: 700;
-    padding: 10px 15px 0;
+
   }
 
   td {
-    border-top: 1px solid $table-border !important;
-    padding: 0 15px;
 
-    p {
-      margin: 0 0 12px;
-    }
   }
 
-  th:first-child {
-    border-radius: 4px 0 0;
-  }
 
-  th:last-child {
-    border-radius: 0 4px 0 0;
-  }
-
-  th:only-child {
-    border-radius: 4px 4px 0 0;
-  }
-
-  tr:last-child td:first-child {
-    border-radius: 0 0 0 4px;
-  }
-
-  tr:last-child td:last-child {
-    border-radius: 0 0 4px;
-  }
 }
 
 .table-notes {

@@ -1,9 +1,13 @@
-include ./views/toggle.pug
+.plan-tracker
+  style
+    include ../dist/css/style.css
 
-table.plan-tracker
-  thead.plan-tracker__heading
-    tr.plan-tracker__row
-      th.plan-tracker__cell Issue
-      th.plan-tracker__cell Plan
-  tbody.plan-tracker__body
-    include ./views/tracker.pug
+  include ./views/toggle.pug
+
+  table.plan-tracker__table
+    thead.plan-tracker__heading
+      tr.plan-tracker__row
+        th.plan-tracker__cell Issue
+        th.plan-tracker__cell Plan
+    tbody.plan-tracker__body
+      include ./views/tracker.pug

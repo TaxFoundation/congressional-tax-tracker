@@ -1,28 +1,40 @@
 taxes:
   - class: indIncomeRates
     name: Rates on Ordinary Income
+    type: individual
   - class: itemizedDeductions
     name: Itemized Deductions
+    type: individual
   - class: credits
     name: Credits
+    type: individual
   - class: amt
     name: Alternative Minimum Tax
+    type: individual
   - class: capGainsAndDividends
     name: Rates on Capital Gains and Dividends Income
+    type: individual
   - class: corpIncomeRates
     name: Top Rates on Corporate Income
+    type: corporate
   - class: capExpenses
     name: Capital Expenses
+    type: corporate
   - class: intIncome
     name: International Income
+    type: corporate
   - class: passthrough
     name: Pass-through Business
+    type: corporate
   - class: payroll
     name: Payroll Taxes
+    type: other
   - class: estate
     name: Estate Tax
+    type: other
   - class: other
     name: Other
+    type: other
 plans:
   - name: Jim Renacci
     class: jim-renacci
