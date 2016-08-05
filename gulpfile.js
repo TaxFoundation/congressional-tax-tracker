@@ -55,5 +55,6 @@ gulp.task('watch', function () {
   gulp.watch('./src/images/**/*', ['moveImages']);
   gulp.watch('./src/js/**/*', ['moveJavascript']);
   gulp.watch('./src/data/**/*', ['renderHtml']);
+  gulp.watch('./src/scss/**/*.scss', ['compileSass']);
   gulp.watch(['./dist/css/style.css', './src/**/*.pug'], ['renderHtml']);
 });

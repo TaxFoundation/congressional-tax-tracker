@@ -106,7 +106,7 @@ $table-border: #ddd;
   &__issues-list {
     list-style: none;
     margin: 0;
-    padding: 18px;
+    padding: 0 18px;
   }
 
   &__issue-toggle,
@@ -116,15 +116,29 @@ $table-border: #ddd;
     border-radius: 4px;
     color: $background-color;
     display: inline-block;
+    font-size: 14px;
+    margin: 10px 8px 8px 0;
     padding: 6px;
+
+    &:hover {
+      background-color: lighten($tf-blue, 10%);
+    }
   }
 
+  &__issue-toggle--inactive,
   &__plan-toggle--inactive {
     background-color: transparent;
     color: $tf-blue;
+
+    &:hover {
+      background-color: lighten($tf-blue, 35%);
+    }
   }
 
   &__issue-section-heading {
+    border-bottom: 1px solid $text-color;
+    font-size: 18px;
+    margin-left: 18px;
     text-transform: capitalize;
   }
 
@@ -138,5 +152,20 @@ $table-border: #ddd;
 
   &__issue-select-all {
     margin: 18px;
+  }
+
+  &__issue-select-all,
+  &__plan-select-all {
+    background-color: $background-color;
+    color: $tf-blue;
+
+    &:hover {
+      background-color: lighten($tf-blue, 35%);
+    }
+  }
+
+  &__position-text {
+    font-size: 16px;
+    line-height: 1.4;
   }
 }
