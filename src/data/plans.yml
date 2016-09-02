@@ -97,7 +97,7 @@ plans:
           Establishes three tax brackets with rates of 12%, 25%, and 33%. The top
           rate applies to taxable income over $190,150 ($231,450 for joint filers).
           Consolidates the standard deduction and the personal exemption into
-          a larger standard deduction of $12,000 ($24,000 for married individuals).
+          a larger standard deduction of $12,000 ($24,000 for joint filers).
           Adds an additional deduction of $6,000 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
@@ -142,7 +142,7 @@ plans:
       - class: other
         text: >
           Eliminates several business credits and deductions, including the domestic
-          production activities deduction. Eliminates the deductibility of interest.
+          production activities deduction. Eliminates the deductibility of net interest.
   - name: Dave Camp
     class: camp-plan
     tflink: http://taxfoundation.org/blog/basics-chairman-camp-s-tax-reform-plan
@@ -162,20 +162,18 @@ plans:
           $500,000 of debt. Eliminates the Pease limitation on itemized deductions.
       - class: credits
         text: >
-          Eliminates several credits, including the adoption tax credit, green
-          energy residential improvements credit, first time homebuyer credit, and
-          qualified electric vehicles and alternative motor vehicles credit.
-          Expands the child tax credit from $1,000 per child to $1,500 per child
-          and $500 for non-child dependents, with credit amuounts indexed to chained CPI.
-          Modifies the parameters of the earned income tax credit.
+          Eliminates several personal credits. Expands the child tax credit from
+          $1,000 per child to $1,500 per child and $500 for non-child dependents,
+          with credit amuounts indexed to chained CPI. Modifies the parameters
+          of the earned income tax credit.
       - class: amt
         text: >
           Eliminates the alternative minimum tax.
       - class: capGainsAndDividends
         text: >
           Taxes capital gains, dividends, and interest as ordinary income, with
-          a 50% exclusion. This is equivalent to taxing investment income at 60% the
-          marginal rates of ordinary income (6%, 15%, and 21%).
+          a 40% exclusion. This is equivalent to taxing investment income at 60%
+          the marginal rates of ordinary income (6%, 15%, and 21%).
       - class: corpIncomeRates
         text: >
           Lowers the corporate tax rate to 25% over 5 years.
@@ -184,14 +182,14 @@ plans:
           Eliminates the modified accelerated cost recovery system (MACRS) and
           replaces it with a system similar to the alternative depreciation system
           (ADS). Adjusts the basis of depreciable assets for inflation.
-          Repeals last-in, first-out accoounting and adds existing business LIFO reserves
-          intothe taxable income over a three-year period.
+          Repeals last-in, first-out accounting and adds existing business LIFO reserves
+          into the taxable income over a three-year period.
       - class: intIncome
         text: >
           Shifts to a territorial tax system. Enacts a deemed repatriation of
           foreign income at a tax rate of 8.75% for cash and cash-equivalent
           profits and 3.5% on other profits. Modifies several rules related to the tax
-          treatment of foriegn source income, such as Subpart F and the foreign tax
+          treatment of foreign-source income, such as Subpart F and the foreign tax
           credit. Creates several new anti-abuse rules regarding the taxation of
           foreign-source income, including a minimum tax rate on foreign-source
           intangible income and a new limitation on business interest deductions.
@@ -266,8 +264,6 @@ plans:
           achieve revenue neutrality. The tax is border-adjusted. It exempts
           non-commercial government sales, most of the nonprofit sector, financial
           services, residential rents, and sales of exisiting residential housing.
-          If the PCT's collections ever exceed 10% of GDP, the excess will be
-          refunded to tax filers.
   - name: Devin Nunes
     class: nunes
     tflink: http://taxfoundation.org/article/updated-details-and-analysis-nunes-plan-reform-business-taxation
@@ -314,4 +310,4 @@ plans:
         text: >
           Eliminates several business tax deductions and credits, including the
           domestic production activities deduction and various alternative energy
-          credits.
+          credits. Eliminates the deductibility of net interest.
