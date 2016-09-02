@@ -113,9 +113,9 @@ plans:
           Eliminates the alternative minimum tax.
       - class: capGainsAndDividends
         text: >
-          Allows a 50% deduction of net capital gains, dividends, and interest
-          income. Therefore taxes investment income at half the rate of ordinary
-          income (6%, 12.5%, and 16.5%).
+          Taxes capital gains, dividends, and interest as ordinary income, with
+          a 50% exclusion. This is equivalent to taxing investment income at half the 
+          marginal rates of ordinary income (6%, 12.5%, and 16.5%).
       - class: corpIncomeRates
         text: >
           Lowers the corporate tax rate to a flat rate of 20%.
@@ -175,8 +175,9 @@ plans:
           Eliminates the alternative minimum tax.
       - class: capGainsAndDividends
         text: >
-          Taxes capital gains and dividends as ordinary income with a 40%
-          exclusion.
+          Taxes capital gains, dividends, and interest as ordinary income, with
+          a 50% exclusion. This is equivalent to taxing investment income at 60% the 
+          marginal rates of ordinary income (6%, 15%, and 21%).
       - class: corpIncomeRates
         text: >
           Lowers the top marginal corporate income rate to 25% over 5 years
@@ -243,8 +244,7 @@ plans:
       - class: capGainsAndDividends
         text: >
           Taxes long-term capital gains and qualified dividends as ordinary
-          income. Eliminates the Affordable Care Act's 3.8% surtax on investment
-          income.
+          income. Eliminates the 3.8% net investment income surtax.
       - class: corpIncomeRates
         text: >
           Lowers the federal corporate tax rate to 17%.
@@ -290,8 +290,8 @@ plans:
           Eliminates the alternative minimum tax.
       - class: capGainsAndDividends
         text: >
-          Taxes interest income at the same rates of long-term capital gains and
-          qualifying dividends.
+          Prserves the current rates on long-term capital gains and qualified dividends,
+          and taxes interest income at these rates as well.
       - class: corpIncomeRates
         text: >
           Lowers the corporate tax rate to 25%.
