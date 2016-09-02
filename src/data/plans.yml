@@ -49,8 +49,9 @@ plans:
           filers). Increases the personal exemption to $5,000.
       - class: itemizedDeductions
         text: >
-          Eliminates all itemized deductions except charitable contributions and
-          mortgage interest up to $500,000 of debt.
+          Eliminates all itemized deductions except the mortgage interest
+          deduction and the charitable contributions deduction. Caps the mortgage
+          interest deduction at $500,000 of debt.
       - class: credits
         text: >
           Eliminates most personal credits. Retains the Child Tax Credit. Expands
@@ -100,8 +101,8 @@ plans:
           Adds an additional deduction of $6,000 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
-          "Eliminates all itemized deductions except the mortgage interest
-          deduction and the charitable contribution deduction."
+          Eliminates all itemized deductions except the mortgage interest
+          deduction and the charitable contributions deduction.
       - class: credits
         text: >
           Consolidates the child credit and personal exemptions for dependents
@@ -163,10 +164,8 @@ plans:
           Adds an additional deduction of $5,500 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
-          Eliminates the state and local tax deduction, deduction of interest on
-          education loans, deduction for tax preparation expenses, deduction for
-          medical expenses, deduction for moving expenses. Eliminates the Pease
-          limitation on itemized deductions.
+          Eliminates the state and local tax deduction, as well as several 
+          other itemized deductions. Eliminates the Pease limitation on itemized deductions.
       - class: credits
         text: >
           Eliminates multiple credits including: the adoption tax credit, green
@@ -231,8 +230,10 @@ plans:
           household, and $100,000 for joint filers.
       - class: itemizedDeductions
         text: >
-          Keeps several itemized deductions including the charitable deduction,
+          Eliminates several deductions but preserves most major itemized
+          deductions, including the charitable contributions deduction, the
           state and local tax deduction, and mortgage interest deduction.
+          Eliminates the Pease limitation on itemized deductions.
       - class: credits
         text: >
           Eliminates most personal credits including the earned income tax credit
@@ -284,8 +285,7 @@ plans:
           No specific proposal.
       - class: itemizedDeductions
         text: >
-          Does not allow individuals to deduct interest payments, except for the
-          home mortgage interest deduction.
+          No specific proposal.
       - class: credits
         text: >
           No specific proposal.
