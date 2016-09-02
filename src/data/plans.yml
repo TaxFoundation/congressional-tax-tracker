@@ -94,12 +94,10 @@ plans:
       - class: indIncomeRates
         text: >
           Establishes three tax brackets with rates of 12%, 25%, and 33%. The top
-          rate applies to taxable income over $190,150 ($231,450 for joint filers)
-          Consolidates the basic standard deduction, the additional standard
-          deduction, and the personal exemptions for families and individuals into
-          a larger standard deduction of $12,000 ($24,000 for married
-          individuals). Adds and additional deduction of $6,000 for single
-          taxapayers with at least one child.
+          rate applies to taxable income over $190,150 ($231,450 for joint filers).
+          Consolidates the standard deduction and the personal exemption into
+          a larger standard deduction of $12,000 ($24,000 for married individuals). 
+          Adds an additional deduction of $6,000 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
           "Eliminates all itemized deductions except the mortgage interest
@@ -158,14 +156,11 @@ plans:
     positions:
       - class: indIncomeRates
         text: >
-          Establishes two tax brackets with rates of 10%, 25%. , The 25% rate
-          applies to taxable income over $35,600 for single filers and $71,200 for
-          joint filers. The plan also enacts a 10% surtax on income over $400,000.
-          Consolidates the basic standard deduction, the additional standard
-          deduction, and the personal exemptions for families and individuals into
-          a larger standard deduction of $11,000 ($22,000 for joint filers), which
-          phases out for high-income earners. Adds an additional deduction of
-          $5,500 for single taxpayers with at least one child.
+          Establishes two tax brackets with rates of 10% and 25%, as well as an additional
+          10% surtax on income over $400,000. Consolidates the standard deduction
+          and the personal exemption into a larger standard deduction of $11,000 
+          ($22,000 for joint filers), which phases out for high-income earners. 
+          Adds an additional deduction of $5,500 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
           Eliminates the state and local tax deduction, deduction of interest on
@@ -232,7 +227,7 @@ plans:
           Establishes three tax brackets with rates of 15%, 25%, and 28%. The top
           rate applies to taxable income over $250,000 ($500,000 for joint
           filers). Replaces the standard deduction and personal exemption with
-          large family allowances of $50,000 for singles, $75,000 for head of
+          family allowances of $50,000 for singles, $75,000 for heads of
           household, and $100,000 for joint filers.
       - class: itemizedDeductions
         text: >
