@@ -36,113 +36,6 @@ taxes:
     name: Other
     type: other
 plans:
-  - name: Jim Renacci
-    class: jim-renacci
-    tfLink: http://taxfoundation.org/article/details-and-analysis-rep-jim-renacci-s-tax-reform-proposal
-    outsideLink: http://renacci.house.gov/_cache/files/7eeb81fe-f245-42c0-8de4-055ebf4c12e9/sats-white-paper.pdf
-    positions:
-      - class: indIncomeRates
-        text: >
-          Establishes three tax brackets with rates of 10%, 25%, and 35%. The top
-          rate applies to taxable income over $750,000 ($1,500,000 for joint
-          filers). Increases the standard deduction to $15,000 ($30,000 for joint
-          filers). Increases the personal exemption to $5,000.
-      - class: itemizedDeductions
-        text: >
-          Eliminates all itemized deductions except the mortgage interest
-          deduction and the charitable contributions deduction. Caps the mortgage
-          interest deduction at $500,000 of debt.
-      - class: credits
-        text: >
-          Eliminates most personal credits. Retains the child tax credit. Expands
-          the earned income tax credit by increasing phase-in rates by 100% for
-          childless workers and 40% for others.
-      - class: amt
-        text: >
-          Eliminates the alternative minimum tax.
-      - class: capGainsAndDividends
-        text: >
-          Taxes capital gains and dividends as ordinary income.
-      - class: corpIncomeRates
-        text: >
-          Eliminates the corporate income tax.
-      - class: capExpenses
-        text: >
-          No specific proposal.
-      - class: intIncome
-        text: >
-          Enacts a deemed repatriation of foreign income at a tax rate of 8.75%
-          for cash and cash-equivalent profits and 3.5% on other profits.
-      - class: passthrough
-        text: >
-          Allows pass-through businesses to elect to be treated as corporations,
-          with no entity-level income tax.
-      - class: payroll
-        text: >
-          No specific proposal.
-      - class: estate
-        text: >
-          No specific proposal.
-      - class: other
-        text: >
-          Enacts a 7% credit-invoice value-added tax. The tax is
-          border-adjusted and exempts non-profits and state and local governments.
-  - name: House GOP, 2016
-    class: gop
-    tfLink: http://taxfoundation.org/blog/details-house-gop-tax-plan
-    outsideLink: http://abetterway.speaker.gov/_assets/pdf/ABetterWay-Tax-PolicyPaper.pdf
-    positions:
-      - class: indIncomeRates
-        text: >
-          Establishes three tax brackets with rates of 12%, 25%, and 33%. The top
-          rate applies to taxable income over $190,150 ($231,450 for joint filers).
-          Consolidates the standard deduction and the personal exemption into
-          a larger standard deduction of $12,000 ($24,000 for joint filers).
-          Adds an additional deduction of $6,000 for single taxpayers with at least one child.
-      - class: itemizedDeductions
-        text: >
-          Eliminates all itemized deductions except the mortgage interest
-          deduction and the charitable contributions deduction.
-      - class: credits
-        text: >
-          Increases the child tax credit to $1,500, the first $1,000 of
-          which is refundable. Raises the phaseout threshold for the
-          child tax credit for married households from $110,000 to $150,000.
-      - class: amt
-        text: >
-          Eliminates the alternative minimum tax.
-      - class: capGainsAndDividends
-        text: >
-          Taxes capital gains, dividends, and interest as ordinary income, with
-          a 50% exclusion. This is equivalent to taxing investment income at half the
-          marginal rates of ordinary income (6%, 12.5%, and 16.5%).
-      - class: corpIncomeRates
-        text: >
-          Lowers the corporate tax rate to 20%.
-      - class: capExpenses
-        text: >
-          Moves to full expensing of capital investment. Preserves the
-          last-in, first-out method of accounting.
-      - class: intIncome
-        text: >
-          Shifts to a territorial tax system. Enacts a deemed repatriation
-          of foreign income at a tax rate of 8.75% for cash and cash-equivalent
-          profits and 3.5% on other profits. Makes the federal income tax
-          border-adjustable, exempting business from paying taxes on exports but
-          denying them a deduction for cost of imported goods.
-      - class: passthrough
-        text: >
-          Lowers the top rate on pass-through businesses to 25%.
-      - class: payroll
-        text: >
-          No specific proposal.
-      - class: estate
-        text: >
-          Eliminates the estate tax.
-      - class: other
-        text: >
-          Eliminates several business credits and deductions, including the domestic
-          production activities deduction. Eliminates the deductibility of net interest.
   - name: Dave Camp
     class: camp-plan
     tflink: http://taxfoundation.org/blog/basics-chairman-camp-s-tax-reform-plan
@@ -311,3 +204,110 @@ plans:
           Eliminates several business tax deductions and credits, including the
           domestic production activities deduction and various alternative energy
           credits. Eliminates the deductibility of net interest.
+  - name: House GOP, 2016
+    class: gop
+    tfLink: http://taxfoundation.org/blog/details-house-gop-tax-plan
+    outsideLink: http://abetterway.speaker.gov/_assets/pdf/ABetterWay-Tax-PolicyPaper.pdf
+    positions:
+      - class: indIncomeRates
+        text: >
+          Establishes three tax brackets with rates of 12%, 25%, and 33%. The top
+          rate applies to taxable income over $190,150 ($231,450 for joint filers).
+          Consolidates the standard deduction and the personal exemption into
+          a larger standard deduction of $12,000 ($24,000 for joint filers).
+          Adds an additional deduction of $6,000 for single taxpayers with at least one child.
+      - class: itemizedDeductions
+        text: >
+          Eliminates all itemized deductions except the mortgage interest
+          deduction and the charitable contributions deduction.
+      - class: credits
+        text: >
+          Increases the child tax credit to $1,500, the first $1,000 of
+          which is refundable. Raises the phaseout threshold for the
+          child tax credit for married households from $110,000 to $150,000.
+      - class: amt
+        text: >
+          Eliminates the alternative minimum tax.
+      - class: capGainsAndDividends
+        text: >
+          Taxes capital gains, dividends, and interest as ordinary income, with
+          a 50% exclusion. This is equivalent to taxing investment income at half the
+          marginal rates of ordinary income (6%, 12.5%, and 16.5%).
+      - class: corpIncomeRates
+        text: >
+          Lowers the corporate tax rate to 20%.
+      - class: capExpenses
+        text: >
+          Moves to full expensing of capital investment. Preserves the
+          last-in, first-out method of accounting.
+      - class: intIncome
+        text: >
+          Shifts to a territorial tax system. Enacts a deemed repatriation
+          of foreign income at a tax rate of 8.75% for cash and cash-equivalent
+          profits and 3.5% on other profits. Makes the federal income tax
+          border-adjustable, exempting business from paying taxes on exports but
+          denying them a deduction for cost of imported goods.
+      - class: passthrough
+        text: >
+          Lowers the top rate on pass-through businesses to 25%.
+      - class: payroll
+        text: >
+          No specific proposal.
+      - class: estate
+        text: >
+          Eliminates the estate tax.
+      - class: other
+        text: >
+          Eliminates several business credits and deductions, including the domestic
+          production activities deduction. Eliminates the deductibility of net interest.
+  - name: Jim Renacci
+    class: jim-renacci
+    tfLink: http://taxfoundation.org/article/details-and-analysis-rep-jim-renacci-s-tax-reform-proposal
+    outsideLink: http://renacci.house.gov/_cache/files/7eeb81fe-f245-42c0-8de4-055ebf4c12e9/sats-white-paper.pdf
+    positions:
+      - class: indIncomeRates
+        text: >
+          Establishes three tax brackets with rates of 10%, 25%, and 35%. The top
+          rate applies to taxable income over $750,000 ($1,500,000 for joint
+          filers). Increases the standard deduction to $15,000 ($30,000 for joint
+          filers). Increases the personal exemption to $5,000.
+      - class: itemizedDeductions
+        text: >
+          Eliminates all itemized deductions except the mortgage interest
+          deduction and the charitable contributions deduction. Caps the mortgage
+          interest deduction at $500,000 of debt.
+      - class: credits
+        text: >
+          Eliminates most personal credits. Retains the child tax credit. Expands
+          the earned income tax credit by increasing phase-in rates by 100% for
+          childless workers and 40% for others.
+      - class: amt
+        text: >
+          Eliminates the alternative minimum tax.
+      - class: capGainsAndDividends
+        text: >
+          Taxes capital gains and dividends as ordinary income.
+      - class: corpIncomeRates
+        text: >
+          Eliminates the corporate income tax.
+      - class: capExpenses
+        text: >
+          No specific proposal.
+      - class: intIncome
+        text: >
+          Enacts a deemed repatriation of foreign income at a tax rate of 8.75%
+          for cash and cash-equivalent profits and 3.5% on other profits.
+      - class: passthrough
+        text: >
+          Allows pass-through businesses to elect to be treated as corporations,
+          with no entity-level income tax.
+      - class: payroll
+        text: >
+          No specific proposal.
+      - class: estate
+        text: >
+          No specific proposal.
+      - class: other
+        text: >
+          Enacts a 7% credit-invoice value-added tax. The tax is
+          border-adjusted and exempts non-profits and state and local governments.
