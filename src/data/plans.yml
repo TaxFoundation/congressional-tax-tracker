@@ -121,10 +121,8 @@ plans:
           Lowers the corporate tax rate to 20%.
       - class: capExpenses
         text: >
-          Moves to full and immediate write-offs of investments in both tangible
-          and intangible assets. Does not allow NOLs to be carried back and
-          restricts the deduction for NOLs to 90% of net taxable income. Allows
-          the carry-forward of NOLs. Preserves the LIFO method of accounting.
+          Moves to full expensing of capital investment. Preserves the
+          last-in, first-out method of accounting.
       - class: intIncome
         text: >
           Shifts to a territorial tax system. Incorporates border adjustments,
@@ -185,9 +183,9 @@ plans:
         text: >
           Eliminates the modified accelerated cost recovery system (MACRS) and
           replaces it with a system similar to the alternative depreciation system
-          (ADS). Adjusts the basis of the depreciable assets for inflation.
-          Repeals LIFO accoounting and adds existing corporate LIFO reserve back
-          into the taxable income in four phases between 2018 and 2020.
+          (ADS). Adjusts the basis of depreciable assets for inflation.
+          Repeals last-in, first-out accoounting and adds existing business LIFO reserves
+          intothe taxable income over a three-year period.
       - class: intIncome
         text: >
           Shifts to a territorial tax system. Enacts a deemed repatriation of
@@ -297,7 +295,7 @@ plans:
       - class: capExpenses
         text: >
           Moves to full expensing of capital investment. Allows businesses to
-          carry back unused deductions up to five years, or carry them forward
+          carry back unused deductions up to five years or carry them forward
           with interest.
       - class: intIncome
         text: >
