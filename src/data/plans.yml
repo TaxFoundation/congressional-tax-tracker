@@ -118,7 +118,7 @@ plans:
           marginal rates of ordinary income (6%, 12.5%, and 16.5%).
       - class: corpIncomeRates
         text: >
-          Lowers the corporate tax rate to a flat rate of 20%.
+          Lowers the corporate tax rate to 20%.
       - class: capExpenses
         text: >
           Moves to full and immediate write-offs of investments in both tangible
@@ -180,8 +180,7 @@ plans:
           marginal rates of ordinary income (6%, 15%, and 21%).
       - class: corpIncomeRates
         text: >
-          Lowers the top marginal corporate income rate to 25% over 5 years
-          (from 2015 to 2019).
+          Lowers the corporate tax rate to 25% over 5 years.
       - class: capExpenses
         text: >
           Eliminates the modified accelerated cost recovery system (MACRS) and
@@ -247,7 +246,7 @@ plans:
           income. Eliminates the 3.8% net investment income surtax.
       - class: corpIncomeRates
         text: >
-          Lowers the federal corporate tax rate to 17%.
+          Lowers the corporate tax rate to 17%.
       - class: capExpenses
         text: >
           No specific proposal.
