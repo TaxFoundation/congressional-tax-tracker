@@ -75,8 +75,8 @@ plans:
           for cash and cash-equivalent profits and 3.5% on other profits.
       - class: passthrough
         text: >
-          Allows pass-through businesses to elect to be treated as a corporation
-          to receive the 0% rate.
+          Allows pass-through businesses to elect to be treated as corporations,
+          with no entity-level income tax.
       - class: payroll
         text: >
           No specific proposal.
@@ -196,8 +196,8 @@ plans:
           parent relative to the foreign subsidiaries.
       - class: passthrough
         text: >
-          Taxes domestic manufacturing income at 25% by exempting it from the 10%
-          "surtax" on incomes over $400,000.
+          Taxes domestic manufacturing income of pass-through businesses at a
+          maximum rate of 25%, by exempting it from the 10% "surtax" on incomes over $400,000.
       - class: payroll
         text: >
           No specific proposal.
