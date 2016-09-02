@@ -12,10 +12,10 @@ taxes:
     name: Alternative Minimum Tax
     type: individual
   - class: capGainsAndDividends
-    name: Rates on Capital Gains and Dividends Income
+    name: Rates on Capital Gains and Dividends
     type: individual
   - class: corpIncomeRates
-    name: Top Rates on Corporate Income
+    name: Corporate Income Tax Rate
     type: corporate
   - class: capExpenses
     name: Capital Expenses
@@ -87,7 +87,7 @@ plans:
         text: >
           Enacts a 7% credit-invoice value-added tax. The tax is
           border-adjusted and exempts non-profits and state and local governments.
-  - name: House GOP
+  - name: House GOP, 2016
     class: gop
     tfLink: http://taxfoundation.org/blog/details-house-gop-tax-plan
     outsideLink: http://abetterway.speaker.gov/_assets/pdf/ABetterWay-Tax-PolicyPaper.pdf
@@ -97,7 +97,7 @@ plans:
           Establishes three tax brackets with rates of 12%, 25%, and 33%. The top
           rate applies to taxable income over $190,150 ($231,450 for joint filers).
           Consolidates the standard deduction and the personal exemption into
-          a larger standard deduction of $12,000 ($24,000 for married individuals). 
+          a larger standard deduction of $12,000 ($24,000 for married individuals).
           Adds an additional deduction of $6,000 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
@@ -114,7 +114,7 @@ plans:
       - class: capGainsAndDividends
         text: >
           Taxes capital gains, dividends, and interest as ordinary income, with
-          a 50% exclusion. This is equivalent to taxing investment income at half the 
+          a 50% exclusion. This is equivalent to taxing investment income at half the
           marginal rates of ordinary income (6%, 12.5%, and 16.5%).
       - class: corpIncomeRates
         text: >
@@ -125,11 +125,11 @@ plans:
           last-in, first-out method of accounting.
       - class: intIncome
         text: >
-          Shifts to a territorial tax system. Enacts a deemed repatriation 
-          of foreign income at a tax rate of 8.75% for cash and cash-equivalent 
+          Shifts to a territorial tax system. Enacts a deemed repatriation
+          of foreign income at a tax rate of 8.75% for cash and cash-equivalent
           profits and 3.5% on other profits. Makes the federal income tax
           border-adjustable, exempting business from paying taxes on exports but
-          denying them a deduction for cost of imported goods. 
+          denying them a deduction for cost of imported goods.
       - class: passthrough
         text: >
           Lowers the top rate on pass-through businesses to 25%.
@@ -143,7 +143,7 @@ plans:
         text: >
           Eliminates several business credits and deductions, including the domestic
           production activities deduction. Eliminates the deductibility of interest.
-  - name: Camp Plan
+  - name: Dave Camp
     class: camp-plan
     tflink: http://taxfoundation.org/blog/basics-chairman-camp-s-tax-reform-plan
     outsideLink: http://waysandmeans.house.gov/UploadedFiles/Ways_and_Means_Section_by_Section_Summary_FINAL_022614.pdf
@@ -152,13 +152,13 @@ plans:
         text: >
           Establishes two tax brackets with rates of 10% and 25%, as well as an additional
           10% surtax on income over $400,000. Consolidates the standard deduction
-          and the personal exemption into a larger standard deduction of $11,000 
-          ($22,000 for joint filers), which phases out for high-income earners. 
+          and the personal exemption into a larger standard deduction of $11,000
+          ($22,000 for joint filers), which phases out for high-income earners.
           Adds an additional deduction of $5,500 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
-          Eliminates the state and local tax deduction, as well as several 
-          other itemized deductions. Caps the mortgage interest deduction at 
+          Eliminates the state and local tax deduction, as well as several
+          other itemized deductions. Caps the mortgage interest deduction at
           $500,000 of debt. Eliminates the Pease limitation on itemized deductions.
       - class: credits
         text: >
@@ -174,7 +174,7 @@ plans:
       - class: capGainsAndDividends
         text: >
           Taxes capital gains, dividends, and interest as ordinary income, with
-          a 50% exclusion. This is equivalent to taxing investment income at 60% the 
+          a 50% exclusion. This is equivalent to taxing investment income at 60% the
           marginal rates of ordinary income (6%, 15%, and 21%).
       - class: corpIncomeRates
         text: >
@@ -190,10 +190,10 @@ plans:
         text: >
           Shifts to a territorial tax system. Enacts a deemed repatriation of
           foreign income at a tax rate of 8.75% for cash and cash-equivalent
-          profits and 3.5% on other profits. Modifies several rules related to the tax 
+          profits and 3.5% on other profits. Modifies several rules related to the tax
           treatment of foriegn source income, such as Subpart F and the foreign tax
-          credit. Creates several new anti-abuse rules regarding the taxation of 
-          foreign-source income, including a minimum tax rate on foreign-source 
+          credit. Creates several new anti-abuse rules regarding the taxation of
+          foreign-source income, including a minimum tax rate on foreign-source
           intangible income and a new limitation on business interest deductions.
       - class: passthrough
         text: >
@@ -268,7 +268,7 @@ plans:
           services, residential rents, and sales of exisiting residential housing.
           If the PCT's collections ever exceed 10% of GDP, the excess will be
           refunded to tax filers.
-  - name: Nunes
+  - name: Devin Nunes
     class: nunes
     tflink: http://taxfoundation.org/article/updated-details-and-analysis-nunes-plan-reform-business-taxation
     outsideLink: http://nunes.house.gov/legislation/tax-reform.htm
