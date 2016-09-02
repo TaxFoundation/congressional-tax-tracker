@@ -49,12 +49,13 @@ plans:
           filers). Increases the personal exemption to $5,000.
       - class: itemizedDeductions
         text: >
-          Eliminates all itemized deductions except charitable contributions and
-          mortgage interest up to $500,000 of debt.
+          Eliminates all itemized deductions except the mortgage interest
+          deduction and the charitable contributions deduction. Caps the mortgage
+          interest deduction at $500,000 of debt.
       - class: credits
         text: >
-          Eliminates most personal credits. Retains the Child Tax Credit. Expands
-          the Earned Income Tax Credit by increasing phase-in rates at 100% for
+          Eliminates most personal credits. Retains the child tax credit. Expands
+          the earned income tax credit by increasing phase-in rates by 100% for
           childless workers and 40% for others.
       - class: amt
         text: >
@@ -74,8 +75,8 @@ plans:
           for cash and cash-equivalent profits and 3.5% on other profits.
       - class: passthrough
         text: >
-          Allows pass-through businesses to elect to be treated as a corporation
-          to receive the 0% rate.
+          Allows pass-through businesses to elect to be treated as corporations,
+          with no entity-level income tax.
       - class: payroll
         text: >
           No specific proposal.
@@ -84,8 +85,8 @@ plans:
           No specific proposal.
       - class: other
         text: >
-          Institutes a 7% credit-invoice value-added tax. The tax is
-          border-adjusted, exempts non-profits and state and local governments.
+          Enacts a 7% credit-invoice value-added tax. The tax is
+          border-adjusted and exempts non-profits and state and local governments.
   - name: House GOP
     class: gop
     tfLink: http://taxfoundation.org/blog/details-house-gop-tax-plan
@@ -94,49 +95,41 @@ plans:
       - class: indIncomeRates
         text: >
           Establishes three tax brackets with rates of 12%, 25%, and 33%. The top
-          rate applies to taxable income over $190,150 ($231,450 for joint filers)
-          Consolidates the basic standard deduction, the additional standard
-          deduction, and the personal exemptions for families and individuals into
-          a larger standard deduction of $12,000 ($24,000 for married
-          individuals). Adds and additional deduction of $6,000 for single
-          taxapayers with at least one child.
+          rate applies to taxable income over $190,150 ($231,450 for joint filers).
+          Consolidates the standard deduction and the personal exemption into
+          a larger standard deduction of $12,000 ($24,000 for married individuals). 
+          Adds an additional deduction of $6,000 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
-          "Eliminates all itemized deductions except the mortgage interest
-          deduction and the charitable contribution deduction."
+          Eliminates all itemized deductions except the mortgage interest
+          deduction and the charitable contributions deduction.
       - class: credits
         text: >
-          Consolidates the child credit and personal exemptions for dependents
-          into an increased child credit of $1,500. The first $1,000 will be
-          refundable as under current law. A non-refundable credit of $500 also
-          will be allowed for non-child dependents. Raises the phaseout threshold
-          for the child tax credit for married households from $110,000 to
-          $150,000.
+          Increases the child tax credit to $1,500, the first $1,000 of
+          which is refundable. Raises the phaseout threshold for the
+          child tax credit for married households from $110,000 to $150,000.
       - class: amt
         text: >
           Eliminates the alternative minimum tax.
       - class: capGainsAndDividends
         text: >
-          Allows a 50% deduction of net capital gains, dividends, and interest
-          income. Therefore taxes investment income at half the rate of ordinary
-          income (6%, 12.5%, and 16.5%).
+          Taxes capital gains, dividends, and interest as ordinary income, with
+          a 50% exclusion. This is equivalent to taxing investment income at half the 
+          marginal rates of ordinary income (6%, 12.5%, and 16.5%).
       - class: corpIncomeRates
         text: >
-          Lowers the corporate tax rate to a flat rate of 20%.
+          Lowers the corporate tax rate to 20%.
       - class: capExpenses
         text: >
-          Moves to full and immediate write-offs of investments in both tangible
-          and intangible assets. Does not allow NOLs to be carried back and
-          restricts the deduction for NOLs to 90% of net taxable income. Allows
-          the carry-forward of NOLs. Preserves the LIFO method of accounting.
+          Moves to full expensing of capital investment. Preserves the
+          last-in, first-out method of accounting.
       - class: intIncome
         text: >
-          Shifts to a territorial tax system. Incorporates border adjustments,
-          which effectively exempts business from paying taxes on exports but
-          taxes imports. Provides a 100% exemption for dividends from foreign
-          subsidaries. Enacts a deemed repatriation of foreign income at a tax
-          rate of 8.75% for cash and cash-equivalent profits and 3.5% on other
-          profits.
+          Shifts to a territorial tax system. Enacts a deemed repatriation 
+          of foreign income at a tax rate of 8.75% for cash and cash-equivalent 
+          profits and 3.5% on other profits. Makes the federal income tax
+          border-adjustable, exempting business from paying taxes on exports but
+          denying them a deduction for cost of imported goods. 
       - class: passthrough
         text: >
           Lowers the top rate on pass-through businesses to 25%.
@@ -145,12 +138,11 @@ plans:
           No specific proposal.
       - class: estate
         text: >
-          Eliminates the estate and generation-skipping transfer taxes.
+          Eliminates the estate tax.
       - class: other
         text: >
-          Eliminates certain special-interest provisions. Eliminates the
-          deductibility of interest. Sets out a proposal for the reorganization
-          and streamlining of the IRS.
+          Eliminates several business credits and deductions, including the domestic
+          production activities deduction. Eliminates the deductibility of interest.
   - name: Camp Plan
     class: camp-plan
     tflink: http://taxfoundation.org/blog/basics-chairman-camp-s-tax-reform-plan
@@ -158,70 +150,66 @@ plans:
     positions:
       - class: indIncomeRates
         text: >
-          Establishes two tax brackets with rates of 10%, 25%. , The 25% rate
-          applies to taxable income over $35,600 for single filers and $71,200 for
-          joint filers. The plan also enacts a 10% surtax on income over $400,000.
-          Consolidates the basic standard deduction, the additional standard
-          deduction, and the personal exemptions for families and individuals into
-          a larger standard deduction of $11,000 ($22,000 for joint filers), which
-          phases out for high-income earners. Adds an additional deduction of
-          $5,500 for single taxpayers with at least one child.
+          Establishes two tax brackets with rates of 10% and 25%, as well as an additional
+          10% surtax on income over $400,000. Consolidates the standard deduction
+          and the personal exemption into a larger standard deduction of $11,000 
+          ($22,000 for joint filers), which phases out for high-income earners. 
+          Adds an additional deduction of $5,500 for single taxpayers with at least one child.
       - class: itemizedDeductions
         text: >
-          Eliminates the state and local tax deduction, deduction of interest on
-          education loans, deduction for tax preparation expenses, deduction for
-          medical expenses, deduction for moving expenses. Eliminates the Pease
-          limitation on itemized deductions.
+          Eliminates the state and local tax deduction, as well as several 
+          other itemized deductions. Caps the mortgage interest deduction at 
+          $500,000 of debt. Eliminates the Pease limitation on itemized deductions.
       - class: credits
         text: >
-          Eliminates multiple credits including: the adoption tax credit, green
+          Eliminates several credits, including the adoption tax credit, green
           energy residential improvements credit, first time homebuyer credit, and
           qualified electric vehicles and alternative motor vehicles credit.
           Expands the child tax credit from $1,000 per child to $1,500 per child
-          and $500 for non-child dependents. These credits will be indexed to
-          chained CPI.
+          and $500 for non-child dependents, with credit amuounts indexed to chained CPI.
+          Modifies the parameters of the earned income tax credit.
       - class: amt
         text: >
           Eliminates the alternative minimum tax.
       - class: capGainsAndDividends
         text: >
-          Taxes capital gains and dividends as ordinary income with a 40%
-          exclusion.
+          Taxes capital gains, dividends, and interest as ordinary income, with
+          a 50% exclusion. This is equivalent to taxing investment income at 60% the 
+          marginal rates of ordinary income (6%, 15%, and 21%).
       - class: corpIncomeRates
         text: >
-          Lowers the top marginal corporate income rate to 25% over 5 years
-          (from 2015 to 2019).
+          Lowers the corporate tax rate to 25% over 5 years.
       - class: capExpenses
         text: >
           Eliminates the modified accelerated cost recovery system (MACRS) and
           replaces it with a system similar to the alternative depreciation system
-          (ADS). Adjusts the basis of the depreciable assets for inflation.
-          Repeals LIFO accoounting and adds existing corporate LIFO reserve back
-          into the taxable income in four phases between 2018 and 2020.
+          (ADS). Adjusts the basis of depreciable assets for inflation.
+          Repeals last-in, first-out accoounting and adds existing business LIFO reserves
+          intothe taxable income over a three-year period.
       - class: intIncome
         text: >
           Shifts to a territorial tax system. Enacts a deemed repatriation of
           foreign income at a tax rate of 8.75% for cash and cash-equivalent
-          profits and 3.5% on other profits. This is payable over an 8 year
-          period. Taxes intangible income earned domestically or abroad at 15%.
-          Limits deductions for interest expense based on the leverage of the U.S.
-          parent relative to the foreign subsidiaries.
+          profits and 3.5% on other profits. Modifies several rules related to the tax 
+          treatment of foriegn source income, such as Subpart F and the foreign tax
+          credit. Creates several new anti-abuse rules regarding the taxation of 
+          foreign-source income, including a minimum tax rate on foreign-source 
+          intangible income and a new limitation on business interest deductions.
       - class: passthrough
         text: >
-          Taxes domestic manufacturing income at 25% by exempting it from the 10%
-          "surtax" on incomes over $400,000.
+          Taxes domestic manufacturing income of pass-through businesses at a
+          maximum rate of 25%, by exempting it from the 10% "surtax" on incomes over $400,000.
       - class: payroll
         text: >
-          No specific proposal.
+          Requires some owners of pass-through businesses to pay self-employment taxes.
       - class: estate
         text: >
           No specific proposal.
       - class: other
         text: >
-          Eliminates many credits and deductions for the oil and gas industry, as
-          well as green energy. Establishes a 0.035% excise tax quarterly to begin
-          in 2015 on the total consolidated assets in excess of $500 billion of
-          banks deemed “important.” Indexes tax parameters to chained CPI-U.
+          Modifies, limits, and eliminates dozens of individual and business tax provisions.
+          Significantly modifies rules for IRAs and 401(k) retirement savings plans.
+          Indexes several tax parameters to chained CPI-U.
   - name: Ben Cardin
     class: ben-cardin
     tflink: http://taxfoundation.org/article/analysis-senator-cardin-s-progressive-consumption-tax
@@ -232,30 +220,31 @@ plans:
           Establishes three tax brackets with rates of 15%, 25%, and 28%. The top
           rate applies to taxable income over $250,000 ($500,000 for joint
           filers). Replaces the standard deduction and personal exemption with
-          large family allowances of $50,000 for singles, $75,000 for head of
+          family allowances of $50,000 for singles, $75,000 for heads of
           household, and $100,000 for joint filers.
       - class: itemizedDeductions
         text: >
-          Keeps several itemized deductions including the charitable deduction,
+          Eliminates several deductions but preserves most major itemized
+          deductions, including the charitable contributions deduction, the
           state and local tax deduction, and mortgage interest deduction.
+          Eliminates the Pease limitation on itemized deductions.
       - class: credits
         text: >
-          Eliminates most personal credits including the earned income tax credit
-          and the child tax credit. Enacts a family allowance and three rebates:
-          an earned income supplement, a child benefit, and an additional child
-          benefit. These rebates phase in at low levels of earned income and
-          phase out as earned income rises.
+          Eliminates most personal credits, including the earned income tax credit
+          and the child tax credit. Creates a comprehensive earned income rebate,
+          which is structured similarly to the current earned income tax credit,
+          phasing in at low levels of earned income, phasing out as earned income rises,
+          and offering a larger rebate to households with children.
       - class: amt
         text: >
           Eliminates the alternative minimum tax.
       - class: capGainsAndDividends
         text: >
           Taxes long-term capital gains and qualified dividends as ordinary
-          income. Eliminates the Affordable Care Act's 3.8% surtax on investment
-          income.
+          income. Eliminates the 3.8% net investment income surtax.
       - class: corpIncomeRates
         text: >
-          Lowers the federal corporate tax rate to 17%.
+          Lowers the corporate tax rate to 17%.
       - class: capExpenses
         text: >
           No specific proposal.
@@ -274,7 +263,7 @@ plans:
       - class: other
         text: >
           Enacts a 10% credit-invoice value-added tax, or a rate modified to
-          achieve revenue neutrality. The tax is border-adjusted. Exempts
+          achieve revenue neutrality. The tax is border-adjusted. It exempts
           non-commercial government sales, most of the nonprofit sector, financial
           services, residential rents, and sales of exisiting residential housing.
           If the PCT's collections ever exceed 10% of GDP, the excess will be
@@ -289,8 +278,7 @@ plans:
           No specific proposal.
       - class: itemizedDeductions
         text: >
-          Does not allow individuals to deduct interest payments, except for the
-          home mortgage interest deduction.
+          No specific proposal.
       - class: credits
         text: >
           No specific proposal.
@@ -299,19 +287,20 @@ plans:
           Eliminates the alternative minimum tax.
       - class: capGainsAndDividends
         text: >
-          Taxes interest income at the same rates of long-term capital gains and
-          qualifying dividends.
+          Prserves the current rates on long-term capital gains and qualified dividends,
+          and taxes interest income at these rates as well.
       - class: corpIncomeRates
         text: >
           Lowers the corporate tax rate to 25%.
       - class: capExpenses
         text: >
           Moves to full expensing of capital investment. Allows businesses to
-          carry back unused deductions up to five years, or carry them forward
+          carry back unused deductions up to five years or carry them forward
           with interest.
       - class: intIncome
         text: >
-          Shifts to a territorial tax system.
+          Shifts to a territorial tax system. Enacts a charge of 5% on
+          unrepatriated foreign-source income.
       - class: passthrough
         text: >
           Lowers the top rate on pass-through businesses to 25%.
@@ -323,6 +312,6 @@ plans:
           No specific proposal.
       - class: other
         text: >
-          Eliminates many business tax deductions and credits including the
+          Eliminates several business tax deductions and credits, including the
           domestic production activities deduction and various alternative energy
           credits.
