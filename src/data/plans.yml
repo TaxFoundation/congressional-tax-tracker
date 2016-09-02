@@ -125,12 +125,11 @@ plans:
           last-in, first-out method of accounting.
       - class: intIncome
         text: >
-          Shifts to a territorial tax system. Incorporates border adjustments,
-          which effectively exempts business from paying taxes on exports but
-          taxes imports. Provides a 100% exemption for dividends from foreign
-          subsidaries. Enacts a deemed repatriation of foreign income at a tax
-          rate of 8.75% for cash and cash-equivalent profits and 3.5% on other
-          profits.
+          Shifts to a territorial tax system. Enacts a deemed repatriation 
+          of foreign income at a tax rate of 8.75% for cash and cash-equivalent 
+          profits and 3.5% on other profits. Makes the federal income tax
+          border-adjustable, exempting business from paying taxes on exports but
+          denying them a deduction for cost of imported goods. 
       - class: passthrough
         text: >
           Lowers the top rate on pass-through businesses to 25%.
@@ -190,10 +189,11 @@ plans:
         text: >
           Shifts to a territorial tax system. Enacts a deemed repatriation of
           foreign income at a tax rate of 8.75% for cash and cash-equivalent
-          profits and 3.5% on other profits. This is payable over an 8 year
-          period. Taxes intangible income earned domestically or abroad at 15%.
-          Limits deductions for interest expense based on the leverage of the U.S.
-          parent relative to the foreign subsidiaries.
+          profits and 3.5% on other profits. Modifies several rules related to the tax 
+          treatment of foriegn source income, such as Subpart F and the foreign tax
+          credit. Creates several new anti-abuse rules regarding the taxation of 
+          foreign-source income, including a minimum tax rate on foreign-source 
+          intangible income and a new limitation on business interest deductions.
       - class: passthrough
         text: >
           Taxes domestic manufacturing income of pass-through businesses at a
@@ -299,7 +299,8 @@ plans:
           with interest.
       - class: intIncome
         text: >
-          Shifts to a territorial tax system.
+          Shifts to a territorial tax system. Enacts a charge of 5% on
+          unrepatriated foreign-source income.
       - class: passthrough
         text: >
           Lowers the top rate on pass-through businesses to 25%.
