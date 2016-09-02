@@ -54,8 +54,8 @@ plans:
           interest deduction at $500,000 of debt.
       - class: credits
         text: >
-          Eliminates most personal credits. Retains the Child Tax Credit. Expands
-          the Earned Income Tax Credit by increasing phase-in rates at 100% for
+          Eliminates most personal credits. Retains the child tax credit. Expands
+          the earned income tax credit by increasing phase-in rates by 100% for
           childless workers and 40% for others.
       - class: amt
         text: >
@@ -105,12 +105,9 @@ plans:
           deduction and the charitable contributions deduction.
       - class: credits
         text: >
-          Consolidates the child credit and personal exemptions for dependents
-          into an increased child credit of $1,500. The first $1,000 will be
-          refundable as under current law. A non-refundable credit of $500 also
-          will be allowed for non-child dependents. Raises the phaseout threshold
-          for the child tax credit for married households from $110,000 to
-          $150,000.
+          Increases the child tax credit to $1,500, the first $1,000 of
+          which is refundable. Raises the phaseout threshold for the
+          child tax credit for married households from $110,000 to $150,000.
       - class: amt
         text: >
           Eliminates the alternative minimum tax.
@@ -168,12 +165,11 @@ plans:
           other itemized deductions. Eliminates the Pease limitation on itemized deductions.
       - class: credits
         text: >
-          Eliminates multiple credits including: the adoption tax credit, green
+          Eliminates several credits, including the adoption tax credit, green
           energy residential improvements credit, first time homebuyer credit, and
           qualified electric vehicles and alternative motor vehicles credit.
           Expands the child tax credit from $1,000 per child to $1,500 per child
-          and $500 for non-child dependents. These credits will be indexed to
-          chained CPI.
+          and $500 for non-child dependents, with credit amuounts indexed to chained CPI.
       - class: amt
         text: >
           Eliminates the alternative minimum tax.
@@ -236,11 +232,11 @@ plans:
           Eliminates the Pease limitation on itemized deductions.
       - class: credits
         text: >
-          Eliminates most personal credits including the earned income tax credit
-          and the child tax credit. Enacts a family allowance and three rebates:
-          an earned income supplement, a child benefit, and an additional child
-          benefit. These rebates phase in at low levels of earned income and
-          phase out as earned income rises.
+          Eliminates most personal credits, including the earned income tax credit
+          and the child tax credit. Creates a comprehensive earned income rebate,
+          which is structured similarly to the current earned income tax credit,
+          phasing in at low levels of earned income, phasing out as earned income rises,
+          and offering a larger rebate to households with children.
       - class: amt
         text: >
           Eliminates the alternative minimum tax.
