@@ -16,16 +16,16 @@ taxes:
     type: individual
   - class: corpIncomeRates
     name: Corporate Income Tax Rate
-    type: corporate
+    type: business
   - class: capExpenses
     name: Capital Expenses
-    type: corporate
+    type: business
   - class: intIncome
     name: International Income
-    type: corporate
+    type: business
   - class: passthrough
     name: Pass-through Business
-    type: corporate
+    type: business
   - class: payroll
     name: Payroll Taxes
     type: other
