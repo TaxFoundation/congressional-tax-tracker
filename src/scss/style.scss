@@ -99,12 +99,6 @@ $table-border: #ddd;
     }
   }
 
-  &__issue-section-heading {
-    font-size: 22px;
-    line-height: 26px;
-    margin: 10px 0 5px;
-  }
-
   &__issues,
   &__plans {
     border: 1px solid $table-border;
@@ -145,9 +139,10 @@ $table-border: #ddd;
   }
 
   &__issue-section-heading {
-    border-bottom: 1px solid $text-color;
-    font-size: 18px;
-    margin-left: 18px;
+    border-bottom: 1px solid $table-border;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 10px 18px 5px;
     text-transform: capitalize;
   }
 
