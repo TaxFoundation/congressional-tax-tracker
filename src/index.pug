@@ -1,7 +1,7 @@
 .plan-tracker
   style
     include ../dist/css/style.css
-  .intro
+  .plan-tracker__intro
     p Over the past few years, several members of Congress have issued comprehensive tax reform proposals. These tax plans will likely play a large role in framing the tax policy debate in 2017 and beyond.
     p The chart below summarizes the major provisions in five recent Congressional tax reform proposals:
     ul
@@ -12,8 +12,8 @@
       li #[a(href="http://taxfoundation.org/article/details-and-analysis-rep-jim-renacci-s-tax-reform-proposal") The "Simplifying America’s Tax System" Plan], issued by #[a(href="http://renacci.house.gov/_cache/files/7eeb81fe-f245-42c0-8de4-055ebf4c12e9/sats-white-paper.pdf") Congressman Jim Renacci (R-OH)]
     p To learn more about this chart, see #[a(href="http://taxfoundation.org/blog/comparing-congressional-tax-reform-proposals") this post].
 
-
-  include ./views/toggle.pug
+  .plan-tracker__toggles
+    include ./views/toggle.pug
 
   table.plan-tracker__table
     thead.plan-tracker__heading

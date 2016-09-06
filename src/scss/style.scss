@@ -15,15 +15,24 @@ $table-border: #ddd;
     margin: 0;
   }
 
-  li {
-    list-style-position: inside !important;
-  }
-
   h1 {
     font-size: 28px;
     font-weight: 700;
     line-height: 32px;
     margin: 0 0 10px;
+  }
+
+  &__intro {
+    li {
+      margin-left: 24px;
+    }
+  }
+
+  &__table,
+  &__toggles {
+    li {
+      list-style-position: inside !important;
+    }
   }
 
   &__table {
